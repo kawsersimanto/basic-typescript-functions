@@ -1,0 +1,19 @@
+{
+  "name": "basic-typescript-functions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch:ts": "tsc --watch",
+    "watch:node": "nodemon dist/app.js",
+    "dev": "concurrently \"npm:watch:*\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.10",
+    "typescript": "^5.8.3"
+  }
+}
